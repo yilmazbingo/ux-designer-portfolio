@@ -10,7 +10,7 @@ module.exports = {
   entry: ["regenerator-runtime/runtime", "./src/index.js"],
   output: {
     filename: "bundle.js",
-    path: path.join(__dirname, "build"),
+    path: path.join(__dirname, "dist"),
     publicPath: "/",
   },
   resolve: {
@@ -64,14 +64,14 @@ module.exports = {
     ],
   },
   devServer: {
-    contentBase: path.join(__dirname, "build"),
+    contentBase: path.join(__dirname, "dist"),
     historyApiFallback: true,
     overlay: true,
   },
 
   plugins: [
     new HtmlWebpackPlugin({
-      title: "esBUild",
+      title: "Yilmaz Portfolio",
       template: "src/index.html",
     }),
     // new CopyWebpackPlugin({
