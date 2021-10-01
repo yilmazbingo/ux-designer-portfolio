@@ -75,6 +75,7 @@ const App = () => (
       <section id="showcase">
         <div class="showcase__content">
           <h1 class="showcase__content--title">Yilmaz Bingol</h1>
+          <p class="showcase__content--para">Freelancer for everyone</p>
           <p class="showcase__content--para">
             UX Designer / Frontend Developer
           </p>
